@@ -13,7 +13,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        slider.minimumValue = 0
+        slider.maximumValue = 30
+        slider.value = 15
         // Do any additional setup after loading the view.
+        
     }
 
     @IBAction func sliderValueChange(_ sender: UISlider){
